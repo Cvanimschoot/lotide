@@ -24,3 +24,5 @@ const tail = function(array) {
 
 console.log(assertEqual(["Hello", "Lighthouse", "Labs"], ["Lighthouse", "Labs"]));
 console.log(assertEqual(tail(["Hello", "Lighthouse", "Labs"]), ["Lighthouse", "Labs"]));
+console.log(tail([]));
+console.log(tail(['Hello']));
