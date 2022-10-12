@@ -10,6 +10,8 @@ const min = function(numbers) {
   return smallestNum;
 };
 
+module.exports = min;
+
 
 /*
  * This is some test runner code that's simply calling our min function defined

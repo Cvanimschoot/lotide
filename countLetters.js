@@ -20,3 +20,5 @@ const countLetter = (string) => {
   
   return results;
 }
+
+module.exports = countLetter;
